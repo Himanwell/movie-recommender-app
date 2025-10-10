@@ -5,10 +5,13 @@ Created on Wed Oct  8 20:13:23 2025
 """
 
 import os
-import pickle
+import joblib
 import streamlit as st
 import pandas as pd
 import difflib
+import pickle
+import requests
+from io import BytesIO
 
 # -------------------------------
 # Load model and data safely
@@ -16,25 +19,34 @@ import difflib
 
 
 
-script_dir = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(script_dir, "trained_model.sav")
-data_path = os.path.join(script_dir, "movies.csv")
+@st.cache_resource
+def load_model():
+    url = "https://huggingface.co/Himanwell/movie-recommender-app/blob/main/trained_model.sav"
+    response = requests.get(url)
+    model = pickle.load(BytesIO(response.content))
+    return model
+
+
+@st.cache_data
+def load_movies_data():
+    # Read the CSV file from local directory (must be in your repo)
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(script_dir, "movies.csv")
+    return pd.read_csv(data_path)
 
 try:
-    movie_model = pickle.load(open(model_path, "rb"))
-except FileNotFoundError:
-    st.error(f"❌ Model file not found at: {model_path}")
+    movie_model = load_model()
+    movies_data = load_movies_data()
+    st.success("✅ Model and data loaded successfully!")
+except Exception as e:
+    st.error(f"❌ Error loading model or data: {e}")
     st.stop()
-
-try:
-    movies_data = pd.read_csv(data_path)
-except FileNotFoundError:
-    st.error(f"❌ Movies CSV not found at: {data_path}")
-    st.stop()
-
-st.success("✅ Model and data loaded successfully!")
 
 similarity = movie_model
+
+# -------------------------------
+# Streamlit App Interface
+# -------------------------------
 
 st.title("🎬 Movie Recommendation System")
 st.write("Type the name of a movie you like, and I’ll suggest similar ones!")
@@ -70,3 +82,4 @@ if st.button("Recommend"):
 
 st.markdown("---")
 st.caption("Created by Emmanuel • Powered by Streamlit 🚀")
+
