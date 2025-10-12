@@ -1,24 +1,30 @@
-# Python cache
+# Ignore Python cache and temporary files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.log
 
-# Virtual environments
-venv/
+# Ignore virtual environments
 env/
+venv/
+.MachineLearning/
 .venv/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
-# IDE/editor configs
-.vscode/
 .idea/
+.vscode/
 
-# System files
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
+# Ignore large data or backup files
+*.pkl
+*.h5
+*.csv
+
+# Optional: Ignore local configuration files or environment secrets
+*.env
+*.ini
