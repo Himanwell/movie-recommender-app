@@ -1,4 +1,4 @@
-# 🎬 Movie Recommendation System (Content-Based)
+I'm# 🎬 Movie Recommendation System (Content-Based)
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)  
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-green?logo=streamlit)](https://share.streamlit.io/)  
@@ -88,7 +88,7 @@ Uses the **TMDB 5000 Movies Dataset** with metadata including:
 
 ## 👨‍💻 Author
 **Emmanuel Ogunkoya**  
-📧 emmanuelogunkoya@gmail.com  
+📧 ogunkoyaemmanuel2024@gmail.com
 
 Built as a fun machine learning project to explore **recommender systems**.  
 
