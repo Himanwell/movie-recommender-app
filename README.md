@@ -1,4 +1,4 @@
-I'm# 🎬 Movie Recommendation System (Content-Based)
+## 🎬 Movie Recommendation System (Content-Based)
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)  
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-green?logo=streamlit)](https://share.streamlit.io/)  
